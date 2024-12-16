@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="GuessHonkaiCode.js"></script>
+        <title>
+            Guess The Honkai Star Rail Character
+        </title>
+        <h4>
+            <center>
+                Guess The Honkai Star Rail Character
+            </center>
+        </h4>
+            <ul>
+                <li><a href = "Home.html">Back to Home</a> </li>
+            </ul>
+    </header>
+    <style>
+            Body{
+                background-color: aquamarine;
+            }
+    </style>
+
+    <body>
+        <center>
+            <p>
+                <input type='text' id='char' maxlength='20' placeholder='put character name here'>
+            </p>
+    
+            <p>
+                The Image of the Character will show here
+                <br>
+                <img id="characterGuesserImg" src="Firefly.png" alt="Image">
+            </p>
+
+            <button type="button" onclick="CheckGuesser()">Guess</button>
+
+            <p id="scoreGuesser">
+                0/4
+            </p>
+        </center>
+
+
+    </body>
+</html>

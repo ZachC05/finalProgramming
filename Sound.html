@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--title-->
+        <title>
+            press button for ding sounds
+        </title>
+        <!--UI for the website to make it not directly flashbang you-->
+        <style>
+            Body{
+                background-color: aquamarine;
+            }
+        </style>
+        <!--basic stuff needed-->
+        <meta charset = "utf-8">
+        <script src="SoundCode.js"></script>
+        <header>
+            <ul>
+                <li><a href = "Home.html">Back to Home</a> </li>
+            </ul>
+        </header>
+    </head>
+
+    <Body>
+        <header>
+            <center>
+                <!--UI for the website-->
+                <h3>Press the button below for a ding sound for no reason!</h3>
+                <br>
+                <!--funny png i found on discord-->
+                <img src="TerrariaPig.gif">
+                <br>
+                <br>
+                <br>
+                <!--when the user presses the button it will play the sound-->
+                <button type="button" id = "playSound" onclick="PlaySound()">PLAY THE SOUND</button>
+            </center>
+        </header>
+    </Body>
+</html>
